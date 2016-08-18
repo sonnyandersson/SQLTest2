@@ -1,0 +1,7 @@
+<DatabaseSettings>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <ServerVersion>Sql2008R2</ServerVersion>
+  <ServerName>DCSQL03TST\DCSQL03TST</ServerName>
+  <DatabaseName>SAPMII_ESLB-Sandbox2</DatabaseName>
+  <DatabaseInformation Version="1" />
+</DatabaseSettings>
