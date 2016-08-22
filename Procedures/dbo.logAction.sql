@@ -1,4 +1,4 @@
-SET ANSI_NULLS ON --
+SET ANSI_NULLS ON
 SET QUOTED_IDENTIFIER ON
 GO
  CREATE PROCEDURE dbo.logAction (
@@ -7,7 +7,7 @@ GO
  )
  AS
  BEGIN
-   SET NOCOUNT ON;
+   SET NOCOUNT ON; --
 
    if (@text is null or @logLevel is null)
      raiserror ('Both text and log level parameters are mandatory', 11, 1);
