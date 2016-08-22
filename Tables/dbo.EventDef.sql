@@ -10,7 +10,7 @@ CREATE TABLE [dbo].[EventDef] (
 		[Ip21DefName]                     [nchar](50) COLLATE Latin1_General_CI_AS NOT NULL,
 		[Ip21Tag]                         [nchar](50) COLLATE Latin1_General_CI_AS NOT NULL,
 		[idDataServer]                    [nchar](10) COLLATE Latin1_General_CI_AS NOT NULL,
-		[description]                     [nvarchar](255) COLLATE Latin1_General_CI_AS NULL,
+		[description]                     [nvarchar](250) COLLATE Latin1_General_CI_AS NULL,
 		[Enabled]                         [bit] NULL,
 		[maxAllowedTimeNotReported]       [int] NULL,
 		[maxAllowedAmountNotReported]     [real] NULL

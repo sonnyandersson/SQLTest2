@@ -3,5 +3,5 @@
   <ServerVersion>Sql2008R2</ServerVersion>
   <ServerName>DCSQL03TST\DCSQL03TST</ServerName>
   <DatabaseName>SAPMII_ESLB-Sandbox2</DatabaseName>
-  <DatabaseInformation Version="1" />
+  <DatabaseInformation Version="2" />
 </DatabaseSettings>
